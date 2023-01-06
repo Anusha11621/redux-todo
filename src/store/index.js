@@ -4,7 +4,7 @@ const ADD_TODO = 'ADD_TODO'
 const DELETE_TODO = 'DELETE_TODO'
 const TOGGLE_TODO = 'TOGGLE_TODO'
 const INPUT_VALUE = 'INPUT_VALUE'
-const SEARCH =' '
+const SEARCH ='SEARCH '
 
 export function inputValue(value){
     return{

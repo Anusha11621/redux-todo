@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { deleteTodo,toggleTodo,searchTodo } from '../../store'
+import { deleteTodo,toggleTodo,searchTodo } from '../store'
 import '../App.css'
 class Todos extends Component {
     constructor(props){

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import {inputValue,addTodo} from '../store'
+import {inputValue,addTodo} from './store'
 import Todo from './components/Todos'
 
 class App extends Component {
